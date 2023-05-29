@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: cadetblue;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: cadetblue;
+  }
+  .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background: transparent;
+  }
+  .navlist{
+    display: flex;
+    background: transparent;
+  }
+  .navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    background: transparent;
+  }
+  .navlist a:hover{
+    border-bottom: 2px solid white;
+    background: transparent;
+  }
+  #menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+    background: transparent
+  }
+  .wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+  }
+  h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.2rem;
+  }
+  form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+  }
+  button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+    background: cadetblue;
+  }
+  button:hover{
+    background: cadetblue;
+  }
+  input:focus{
+    border: 1px solid rgb(192, 192, 192);
+  }
+  .terms{
+    margin-top: 0.2rem;
+  }
+  .terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .terms label{
+    font-size: 0.7rem;
+  }
+  .terms a{
+    color: cadetblue;
+    text-decoration: none;
+  }
+  .member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+  }
+  .member a{
+    color: cadetblue;
+    text-decoration: none;
+  }

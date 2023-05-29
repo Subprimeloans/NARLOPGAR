@@ -1,0 +1,48 @@
+nav {
+    background-color: #333;
+    height: 80px; /* Increase height to make room for the logo */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start; /* Add space between logo and nav links */
+    align-items: center; /* Vertically center logo and nav links */
+    padding: 0 20px; /* Add padding to prevent nav links from touching the edges */
+    
+  }
+  
+  .logo {
+    height: 60px; /* Adjust height to match nav height */
+    width: auto; /* Allow image to scale proportionally */
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /* Change to flex to align nav links horizontally */
+    margin-left: 500px;
+  }
+  
+
+  nav ul li:first-child {
+    margin-left: 0; /* Remove left margin from first nav link */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+ 
+  }
+
+
+  
+  nav ul li:hover {
+    background-color: #555;
+  }
+  
